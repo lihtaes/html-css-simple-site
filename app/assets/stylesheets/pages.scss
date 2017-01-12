@@ -1,0 +1,67 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+background: url("/assets/cat-dog.jpg");
+color: #f3f3f3;
+
+}
+
+.right {
+  margin-left: 35px;
+  }
+
+#pupContainer {
+  width:48%;
+  height:80%;
+  float:left;
+  position:relative;
+}
+
+a {
+  text-decoration:none;
+  color: #f3f3f3;
+ }
+
+a:hover {
+  color: #a3a3a3;
+}
+
+#dogLink {
+  float:left;
+  position: relative;
+  top: 50px;
+  left:60px;
+  font-size: 50px
+}
+
+#dogLink:hover {
+top: 49px;
+}
+
+#catLink {
+  float:left;
+  position: relative;
+  margin-right:60px;
+  top: 200px;
+  left: 50px;
+}
+
+#catLink:hover {
+top: 199px;
+}
+
+#pup {
+  width:350px;
+  height:350px;
+  left: 65px;
+  position: relative;
+  top: 25px;
+}
+
+.homeLink {
+  position:relative;
+  top: 15px;
+  left: 160px;
+}
